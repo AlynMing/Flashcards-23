@@ -3,7 +3,7 @@
 ## Lab 1
 
 ### App Description
-`TODO://` Simple flashcard app that asks "Who is the director of Her (film)?". 
+Simple flashcard app that asks "Who is the director of Her (film)?". 
 
 ### App Walk-though
 
