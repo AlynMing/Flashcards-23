@@ -6,9 +6,8 @@
 `TODO://` Simple flashcard app that asks "Who is the director of Her (film)?". 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="http://g.recordit.co/WrCx4ItAyD.gif" width=200><br>
 
 
 ## Required
