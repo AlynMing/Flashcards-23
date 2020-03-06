@@ -6,7 +6,7 @@
 Simple flashcard app with new features such as creating new flashcard, updating flashcard question and answer, and adding multiple choice answers. 
 
 ### App Walk-though
-<img src="http://g.recordit.co/Kuxkag7MsR.gif" width=200><br>
+<img src="http://g.recordit.co/fsbNpTDmNP.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
