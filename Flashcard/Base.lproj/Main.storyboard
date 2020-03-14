@@ -38,9 +38,19 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFX-p9-mKn">
                                         <rect key="frame" x="266" y="133" width="21" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <state key="normal" title="✏️"/>
                                         <connections>
                                             <segue destination="Dks-uD-UtM" kind="show" identifier="EditSegue" id="Z5f-s1-QWA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TK3-F8-HB0">
+                                        <rect key="frame" x="8" y="0.0" width="22" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="❌"/>
+                                        <connections>
+                                            <action selector="didTapOnDelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXj-7l-uxQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -75,12 +85,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRU-xg-YIP">
-                                <rect key="frame" x="192" y="796" width="30" height="48"/>
+                                <rect key="frame" x="192" y="820" width="30" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <segue destination="Dks-uD-UtM" kind="presentation" id="4qH-qf-07V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amz-F6-zut">
+                                <rect key="frame" x="28" y="823" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwg-hc-seI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76a-7r-KyD">
+                                <rect key="frame" x="363" y="823" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VxZ-lo-qLf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -94,6 +120,8 @@
                         <outlet property="buttonOptTwo" destination="vWc-DS-sBO" id="beD-66-m2o"/>
                         <outlet property="card" destination="qQZ-LF-Cda" id="LCQ-hw-luZ"/>
                         <outlet property="frontLabel" destination="rJb-Eh-JXb" id="ATB-bq-mdL"/>
+                        <outlet property="nextButton" destination="76a-7r-KyD" id="8ei-om-qcE"/>
+                        <outlet property="prevButton" destination="amz-F6-zut" id="rId-7j-Sq1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

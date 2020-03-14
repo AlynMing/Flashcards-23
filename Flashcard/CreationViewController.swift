@@ -35,6 +35,7 @@ class CreationViewController: UIViewController {
     @IBAction func didTapOnDone(_ sender: Any) {
         let questionText = questionTextField.text
         let answerText = answerTextField.text
+
         let extraAnswerOneText = extraAnswerOne.text
         let extraAnswerTwoText = extraAnswerTwo.text
 
@@ -48,10 +49,15 @@ class CreationViewController: UIViewController {
             alert.addAction(okAction)
             present(alert, animated: true)
         } else {
+            var isExisting = false
+            if questionText == initialQuestion {
+                isExisting = true
+            }
         flashcardsController.UpdateFlashcard(question: questionText!,
                                              answer: answerText!,
                                              extraAnswerOne: extraAnswerOneText,
-                                             extraAnswerTwo: extraAnswerTwoText)
+                                             extraAnswerTwo: extraAnswerTwoText,
+                                             isExisting: isExisting)
         dismiss(animated: true)
         }
     }
