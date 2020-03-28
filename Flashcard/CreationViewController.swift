@@ -50,7 +50,7 @@ class CreationViewController: UIViewController {
             present(alert, animated: true)
         } else {
             var isExisting = false
-            if questionText == initialQuestion {
+            if initialQuestion == questionText {
                 isExisting = true
             }
         flashcardsController.UpdateFlashcard(question: questionText!,
