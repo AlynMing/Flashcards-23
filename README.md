@@ -2,7 +2,7 @@
 
 ## Lab 4
 
-![Flashcards App](https://ibb.co/ypfms3C)
+![Flashcards App](<https://i.ibb.co/jz694pY/Splash-Logo-2x.png>)
 
 ### App Description
 Fully functioning and aesthetically-pleasing iOS flashcard app: adding, modifying, and deleting flashcards
