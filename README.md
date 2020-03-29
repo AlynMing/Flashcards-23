@@ -2,6 +2,8 @@
 
 ## Lab 4
 
+![Flashcards App](https://ibb.co/ypfms3C)
+
 ### App Description
 Fully functioning and aesthetically-pleasing iOS flashcard app: adding, modifying, and deleting flashcards
 
