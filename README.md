@@ -3,7 +3,7 @@
 ## Lab 4
 
 ### App Description
-`TODO://` Fully functioning and aesthetically-pleasing iOS flashcard app: adding, modifying, and deleting flashcards
+Fully functioning and aesthetically-pleasing iOS flashcard app: adding, modifying, and deleting flashcards
 
 ### App Walk-though
 
